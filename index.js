@@ -9,7 +9,7 @@ function strip_comment(str) {
 }
 
 function str_to_vec(str) {
-  return str.trim().split(/\s/).map(Number);
+  return str.trim().split(/\s+/).map(Number);
 }
 
 function not_empty(str) {
