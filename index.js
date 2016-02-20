@@ -12,8 +12,8 @@ function str_to_vec(str) {
   return str.trim().split(/\s/).map(Number);
 }
 
-function is_empty(str) {
-  return str.length == 0;
+function not_empty(str) {
+  return str.length != 0 || !!str.trim();
 }
 
 function str_to_face(str) {
@@ -24,7 +24,7 @@ function off2json(str) {
 
   var offdata = lines(str.trim())
     .map(strip_comment)
-    .filter(is_empty);
+    .filter(not_empty);
 
   if (offdata[0] != 'OFF') {
     throw new Error("File contents not correctly formatted");
