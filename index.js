@@ -38,7 +38,7 @@ function off2json(str) {
 
   return {
     vertices: vertices,
-    faces: faces;
+    faces: faces
   };
 
 }
