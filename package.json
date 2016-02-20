@@ -1,0 +1,24 @@
+{
+  "name": "off2json",
+  "version": "1.0.0",
+  "description": "Convert .off file content to json.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianbjorndilling/off2json.git"
+  },
+  "keywords": [
+    "off",
+    "json",
+    "convert"
+  ],
+  "author": "Ian Dilling <ianbjorndilling@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianbjorndilling/off2json/issues"
+  },
+  "homepage": "https://github.com/ianbjorndilling/off2json#readme"
+}
