@@ -16,7 +16,7 @@ function is_empty(str) {
   return str.length == 0;
 }
 
-str_to_face(str) {
+function str_to_face(str) {
   return str_to_vec(str).slice(1);
 }
 
