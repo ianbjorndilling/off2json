@@ -26,7 +26,7 @@ function off2json(str) {
     .map(strip_comment)
     .filter(not_empty);
 
-  if (offdata[0].includes('OFF')) {
+  if (!offdata[0].includes('OFF')) {
     throw new Error("File contents not correctly formatted");
   }
 
